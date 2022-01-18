@@ -1,0 +1,25 @@
+{
+	"name": "platzi-recetas",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"isomorphic-fetch": "^3.0.0",
+		"react": "^16.4.1",
+		"react-dom": "^16.4.1",
+		"react-helmet": "^5.2.0",
+		"react-router-dom": "^4.3.1",
+		"react-scripts": "1.1.4",
+		"serve": "^9.1.0"
+	},
+	"scripts": {
+		"dev": "react-scripts start",
+		"start": "serve ./build -s -p 4000",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	},
+	"description": "Este repositorio contiene todo el contenido del curso a medida que construimos una app para ver recetas con la API de MealDB.",
+	"main": "index.js",
+	"author": "",
+	"license": "ISC"
+}
